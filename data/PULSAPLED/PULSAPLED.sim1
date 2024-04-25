@@ -1,0 +1,45 @@
+<circuit version="1.1.0" rev="2068" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="LedBar" CircId="LedBar-21" mainComp="true" Show_id="false" Show_Val="false" Pos="-428,164" rotation="0" hflip="-1" vflip="1" label="LedBar-21" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" boardPos="1,32" circPos="-428,164" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Color="Yellow" Size="1 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-5" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-340,136" rotation="90" hflip="1" vflip="1" label="Resistor-5" idLabPos="-16,-24" labelrot="0" valLabPos="-7.72617,4.64917" valLabRot="0" boardPos="84,-100" circPos="-340,136" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="200 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-7" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-388,140" rotation="0" hflip="1" vflip="1" label="Resistor-7" idLabPos="-16,-24" labelrot="0" valLabPos="-8.61423,3.70787" valLabRot="0" boardPos="4,-88" circPos="-388,140" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,172" rotation="0" hflip="1" vflip="1" label="Ground-3" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="84,-48" circPos="-340,172" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="Push" CircId="Push-37" mainComp="true" Show_id="false" Show_Val="false" Pos="-312,116" rotation="0" hflip="1" vflip="1" label="Push-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="12,-4" circPos="-312,116" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Norm_Close="false" Poles="1 _Poles" Key="*" />
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-372,204" rotation="0" hflip="1" vflip="1" label="PULSAPLED" idLabPos="-15.991,-19.5371" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="3 _Cells" Height="2 _Cells" Package_File="PULSAPLED.package" Background="0_INVIS.png" Logic_Symbol="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-380,116" rotation="0" hflip="1" vflip="1" label="Tunnel-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="44,-132" circPos="-380,116" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="int" IsBus="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,64" rotation="0" hflip="1" vflip="1" label="TextComponent-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-48,-140" circPos="-436,64" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="0 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="PULSAPLED. PULDADOR A +5V" />
+
+<item itemtype="Ellipse" CircId="Ellipse-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,212" rotation="0" hflip="1" vflip="1" label="Ellipse-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,8" circPos="-332,212" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="9 _Pixels" V_size="14 _Pixels" Border="1 _Pixels" Z_Value="-6" Color="#ff5050" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,244" rotation="0" hflip="1" vflip="1" label="Rectangle-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="12,8" circPos="-364,244" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="16 _Pixels" V_size="16 _Pixels" Border="1 _Pixels" Z_Value="-7" Color="#000000" Opacity="1" />
+
+<item itemtype="Rail" CircId="Rail-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-272,116" rotation="180" hflip="1" vflip="1" label="Rail-4" idLabPos="-5,-10" labelrot="-90" valLabPos="-16.3296,6" valLabRot="-90" boardPos="164,-160" circPos="-272,116" boardRot="90" circRot="180" boardHflip="1" boardVflip="1" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-38" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-340,116" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-368,116" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Resistor-7-rPin" endpinid="Node-9-1" pointList="-372,140,-368,140,-368,116" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="LedBar-21-led0-pinP" endpinid="Resistor-7-lPin" pointList="-412,140,-404,140" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Node-9-2" endpinid="Node-38-0" pointList="-368,116,-340,116" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Ground-3-Gnd" endpinid="Resistor-5-rPin" pointList="-340,156,-340,152" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Tunnel-6-pin" endpinid="Node-9-0" pointList="-380,116,-368,116" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Push-37-pinP0" endpinid="Node-38-1" pointList="-328,116,-340,116" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Node-38-2" endpinid="Resistor-5-lPin" pointList="-340,116,-340,120" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Push-37-switch0pinN" endpinid="Rail-4-outnod" pointList="-296,116,-288,116" />
+
+</circuit>

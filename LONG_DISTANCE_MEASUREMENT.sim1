@@ -1,0 +1,143 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Subcircuit" CircId="MANO-1025" mainComp="false" Show_id="false" Show_Val="false" Pos="188,-20" rotation="0" hflip="1" vflip="1" label="MANO" idLabPos="-36.5248,11.8839" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Line-8" H_size="8 Pixels" V_size="8 Pixels" Border="2 _px" Z_Value="-1" Color="#0000ff" Opacity="1" />
+</item>
+
+<item itemtype="Subcircuit" CircId="GND-1187" mainComp="false" Show_id="false" Show_Val="false" Pos="384,24" rotation="0" hflip="1" vflip="1" label="GND-1187" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="MOTO_ENCO-1120" mainComp="false" Show_id="true" Show_Val="false" Pos="308,-44" rotation="0" hflip="1" vflip="1" label="ENCODER SIGNAL" idLabPos="-125.194,-11.4138" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rectangle" CircId="Rectangle-286" mainComp="false" Show_id="false" Show_Val="false" Pos="268,-68" rotation="0" hflip="1" vflip="1" label="Rectangle-286" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="680 _px" V_size="400 _px" Border="2 _px" Z_Value="-7" Color="#a0a0a4" Opacity="0" />
+
+<item itemtype="Subcircuit" CircId="UNO-895" mainComp="false" Show_id="true" Show_Val="false" Pos="-12,-92" rotation="0" hflip="1" vflip="1" label="UNO" idLabPos="-19.7064,22.9824" labelrot="-90" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-519" Frequency="16 MHz" Program="LONG_DISTANCE_MEASUREMENT.hex" Auto_Load="false" saveEepr="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Ellipse" CircId="Ellipse-1102" mainComp="false" Show_id="false" Show_Val="false" Pos="528,-160" rotation="0" hflip="1" vflip="1" label="Ellipse-1102" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="30 Pixels" V_size="30 Pixels" Border="1 Pixels" Z_Value="-1" Color="#80ff00" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="FLECHA2-1115" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-164" rotation="90" hflip="1" vflip="1" label="F2" idLabPos="-6.20649,3.49644" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Line-4" H_size="16 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="1" Color="#ff0000" Opacity="1" />
+</item>
+
+<item itemtype="Switch" CircId="Switch-1214" mainComp="false" Show_id="true" Show_Val="false" Pos="440,-36" rotation="0" hflip="1" vflip="1" label="PAUSE" idLabPos="-13.2357,19.3567" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="true" DT="false" Poles="1" Key="P" />
+
+<item itemtype="TextComponent" CircId="TextComponent-1190" mainComp="false" Show_id="false" Show_Val="false" Pos="468,-92" rotation="0" hflip="1" vflip="1" label="TextComponent-1190" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 Pixels" Border="1 Pixels" Color="#008080" Opacity="1" Font="ARIAL" Font_Color="#ffff00" Font_Size="9 Pixels" Fixed_Width="false" Text="ROTATION&#xa;SIMULATOR" />
+
+<item itemtype="Rectangle" CircId="Rectangle-1194" mainComp="false" Show_id="false" Show_Val="false" Pos="496,-20" rotation="0" hflip="1" vflip="1" label="Rectangle-1194" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="46 _px" V_size="64 _px" Border="0 _px" Z_Value="-1" Color="#ffa080" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="LEDH-1219" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-8" rotation="0" hflip="1" vflip="1" label="90 DEG" idLabPos="12.5139,-4.26906" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Ellipse" CircId="Ellipse-1177" mainComp="false" Show_id="false" Show_Val="false" Pos="340,-8" rotation="0" hflip="1" vflip="1" label="Ellipse" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="140 _px" V_size="140 _px" Border="2 _px" Z_Value="-2" Color="#008080" Opacity="1" />
+
+<item itemtype="Ellipse" CircId="Ellipse-1105" mainComp="false" Show_id="false" Show_Val="false" Pos="540,-144" rotation="0" hflip="1" vflip="1" label="Ellipse-1105" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="30 Pixels" V_size="30 Pixels" Border="1 Pixels" Z_Value="-1" Color="#ff8000" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="LED0-1224" mainComp="false" Show_id="true" Show_Val="false" Pos="260,12" rotation="0" hflip="-1" vflip="1" label="TURN" idLabPos="-7.89527,13.759" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Subcircuit" CircId="LED16_ADC-1202" mainComp="false" Show_id="true" Show_Val="false" Pos="292,-132" rotation="0" hflip="1" vflip="1" label="ENCODER MONITOR" idLabPos="26.589,-20.6256" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="LEDH-1221" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-24" rotation="0" hflip="1" vflip="1" label="270 DEG" idLabPos="11.7625,-5.55239" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Subcircuit" CircId="FLECHA2-1205" mainComp="false" Show_id="true" Show_Val="false" Pos="420,36" rotation="0" hflip="1" vflip="1" label="FRONT" idLabPos="-25.3084,3.87848" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Line-4" H_size="16 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="1" Color="#ff0000" Opacity="1" />
+</item>
+
+<item itemtype="Subcircuit" CircId="SSD1306-1176" mainComp="false" Show_id="true" Show_Val="false" Pos="88,-148" rotation="0" hflip="1" vflip="1" label="SSD1306" idLabPos="93.1783,-25.4023" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Ssd1306-1" Color="White" Width="128 _px" Height="64 _px" Rotate="true" Control_Code="60" Frequency="100 _kHz" />
+</item>
+
+<item itemtype="Ellipse" CircId="Ellipse-1099" mainComp="false" Show_id="false" Show_Val="false" Pos="512,-136" rotation="0" hflip="1" vflip="1" label="Ellipse-1099" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="30 Pixels" V_size="30 Pixels" Border="1 Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="PULSAPLED-1150" mainComp="false" Show_id="true" Show_Val="false" Pos="76,44" rotation="0" hflip="1" vflip="1" label="START/STOP" idLabPos="25.5495,-0.298877" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Push-37" Norm_Close="false" Poles="1" Key="*" />
+
+<mainCompProps MainCompId="LedBar-21" Color="Yellow" Size="1 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Rectangle" CircId="Rectangle-1185" mainComp="false" Show_id="true" Show_Val="false" Pos="380,68" rotation="0" hflip="1" vflip="1" label="FLOOR" idLabPos="136.426,-24.4504" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="350 _px" V_size="8 _px" Border="2 _px" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-46" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-252" rotation="0" hflip="1" vflip="1" label="TextComponent-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-3 Pixels" Border="1 _px" Color="#ff0000" Opacity="1" Font="ARIAL BLACK" Font_Color="#ffff00" Font_Size="11 Pixels" Fixed_Width="false" Text="DISTANCE MEASUREMENT BY WHEEL ROTATION  " />
+
+<item itemtype="Subcircuit" CircId="SONDA-1222" mainComp="false" Show_id="false" Show_Val="false" Pos="268,-156" rotation="0" hflip="1" vflip="1" label="SONDA-1222" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Probe-12" ShowVolt="true" Threshold="2.5 V" />
+</item>
+
+<item itemtype="Subcircuit" CircId="LED0-1179" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-44" rotation="0" hflip="1" vflip="1" label="STOP" idLabPos="17.8462,0.0615176" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Subcircuit" CircId="FUENTE-1209" mainComp="false" Show_id="true" Show_Val="false" Pos="4,-132" rotation="0" hflip="1" vflip="1" label="WHEEL" idLabPos="-17.1461,29.283" labelrot="-90" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Rail-4" Voltage="5 V" />
+
+<mainCompProps MainCompId="Potentiometer-2" Resistance="10 kΩ" Value_Ohm="5610 Ω" />
+</item>
+
+<item itemtype="Ellipse" CircId="Ellipse-1186" mainComp="false" Show_id="false" Show_Val="false" Pos="340,-8" rotation="0" hflip="1" vflip="1" label="Ellipse-1186" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="120 _px" V_size="120 _px" Border="2 _px" Z_Value="-1" Color="#00ff80" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="PULSAPLED-1225" mainComp="false" Show_id="true" Show_Val="false" Pos="76,28" rotation="0" hflip="1" vflip="1" label="RST" idLabPos="25.5495,-0.298877" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Push-37" Norm_Close="false" Poles="1" Key="*" />
+
+<mainCompProps MainCompId="LedBar-21" Color="Yellow" Size="1 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="TextComponent" CircId="TextComponent-1210" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-184" rotation="0" hflip="1" vflip="1" label="TextComponent-1210" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 Pixels" Border="1 Pixels" Color="#008080" Opacity="1" Font="ARIAL" Font_Color="#ffff00" Font_Size="7 Pixels" Fixed_Width="false" Text="WHEEL RADIUS&#xa;ADJUSTMENT" />
+
+<item itemtype="Subcircuit" CircId="LEDH-1218" mainComp="false" Show_id="true" Show_Val="false" Pos="76,0" rotation="0" hflip="1" vflip="1" label=" 0 DEG" idLabPos="10.0483,-3.09954" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Voltage Source" CircId="Voltage Source-1169" mainComp="false" Show_id="false" Show_Val="false" Pos="496,-20" rotation="0" hflip="-1" vflip="-1" label="Voltage Source-1169" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="3.865 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="Subcircuit" CircId="LEDH-1220" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-16" rotation="0" hflip="1" vflip="1" label="180 DEG" idLabPos="10.3096,-5.16041" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="LedBar-2" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Node" CircId="Node-1223" mainComp="false" Pos="268,-124" />
+
+<item itemtype="Node" CircId="Node-1213" mainComp="false" Pos="268,-36" />
+
+<item itemtype="Connector" uid="Connector-271" startpinid="UNO-895-9" endpinid="LEDH-1219-AN" pointList="52,-4,68,-4" />
+
+<item itemtype="Connector" uid="Connector-184" startpinid="PULSAPLED-1150-int" endpinid="UNO-895-2" pointList="68,52,52,52" />
+
+<item itemtype="Connector" uid="Connector-226" startpinid="Node-1213-2" endpinid="MOTO_ENCO-1120-AE" pointList="268,-36,300,-36" />
+
+<item itemtype="Connector" uid="Connector-273" startpinid="UNO-895-A3" endpinid="FUENTE-1209-OUT" pointList="52,-68,68,-68,68,-116,44,-116" />
+
+<item itemtype="Connector" uid="Connector-272" startpinid="UNO-895-8" endpinid="LEDH-1218-AN" pointList="52,4,68,4" />
+
+<item itemtype="Connector" uid="Connector-274" startpinid="SONDA-1222-0" endpinid="Node-1223-1" pointList="268,-140,268,-124" />
+
+<item itemtype="Connector" uid="Connector-278" startpinid="PULSAPLED-1225-int" endpinid="UNO-895-4" pointList="68,36,52,36" />
+
+<item itemtype="Connector" uid="Connector-276" startpinid="Node-1223-2" endpinid="Node-1213-0" pointList="268,-124,268,-36" />
+
+<item itemtype="Connector" uid="Connector-227" startpinid="Switch-1214-pinP0" endpinid="MOTO_ENCO-1120-M+" pointList="424,-36,380,-36" />
+
+<item itemtype="Connector" uid="Connector-275" startpinid="LED16_ADC-1202-IN" endpinid="Node-1223-0" pointList="284,-124,268,-124" />
+
+<item itemtype="Connector" uid="Connector-188" startpinid="GND-1187-GND" endpinid="MOTO_ENCO-1120-GND" pointList="384,24,384,20,380,20" />
+
+<item itemtype="Connector" uid="Connector-269" startpinid="UNO-895-11" endpinid="LEDH-1221-AN" pointList="52,-20,68,-20" />
+
+<item itemtype="Connector" uid="Connector-172" startpinid="UNO-895-A5" endpinid="SSD1306-1176-SCL" pointList="52,-84,80,-84" />
+
+<item itemtype="Connector" uid="Connector-270" startpinid="UNO-895-10" endpinid="LEDH-1220-AN" pointList="52,-12,68,-12" />
+
+<item itemtype="Connector" uid="Connector-173" startpinid="UNO-895-A4" endpinid="SSD1306-1176-SDA" pointList="52,-76,80,-76" />
+
+<item itemtype="Connector" uid="Connector-277" startpinid="LED0-1224-AN" endpinid="MOTO_ENCO-1120-DE" pointList="268,20,300,20" />
+
+<item itemtype="Connector" uid="Connector-228" startpinid="Switch-1214-switch0pinN" endpinid="Voltage Source-1169-outPin" pointList="456,-36,468,-36" />
+
+<item itemtype="Connector" uid="Connector-267" startpinid="UNO-895-A1" endpinid="Node-1213-1" pointList="52,-52,148,-52,148,-36,268,-36" />
+
+<item itemtype="Connector" uid="Connector-222" startpinid="UNO-895-13" endpinid="LED0-1179-AN" pointList="52,-36,68,-36" />
+
+</circuit>

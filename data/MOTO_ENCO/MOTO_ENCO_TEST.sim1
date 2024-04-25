@@ -1,0 +1,37 @@
+<circuit version="1.1.0" rev="2116" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="TextComponent" CircId="TextComponent-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-508,-216" rotation="0" hflip="1" vflip="1" label="TextComponent-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="1 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="ARIAL" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="true" Text="DC MOTOR WITH ENCODER TEST" />
+
+<item itemtype="Subcircuit" CircId="MOTO_ENCO-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-452,-116" rotation="0" hflip="1" vflip="1" label="DC MOTOR" idLabPos="10.6685,-21.4936" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="FUENTE_L-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-356,-124" rotation="0" hflip="1" vflip="1" label="SPEED" idLabPos="1.34723,-17.3153" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Potentiometer-2" Resistance="10 kΩ" Value_Ohm="9740 Ω" />
+
+<mainCompProps MainCompId="Rail-4" Voltage="10 V" />
+</item>
+
+<item itemtype="Subcircuit" CircId="VOLTMETER-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-452,-172" rotation="0" hflip="1" vflip="1" label="VOLTMETER-7" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Voltimeter-1" />
+</item>
+
+<item itemtype="Subcircuit" CircId="LED_FLASH-12" mainComp="false" Show_id="true" Show_Val="false" Pos="-484,-56" rotation="0" hflip="-1" vflip="1" label="ROTOR PASS" idLabPos="-16.4809,-19.2675" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Resistor-5" Resistance="5 kΩ" />
+
+<mainCompProps MainCompId="LedBar-40" Color="Green" Size="1 _Leds" Grounded="true" Threshold="2 V" MaxCurrent="0.02 A" Resistance="110 Ω" />
+
+<mainCompProps MainCompId="LedBar-1" Color="Yellow" Size="1 _Leds" Grounded="true" Threshold="2 V" MaxCurrent="0.02 A" Resistance="110 Ω" />
+
+<mainCompProps MainCompId="And Gate-11" Input_High_V="4 V" Input_Low_V="2 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="true" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+</item>
+
+<item itemtype="Subcircuit" CircId="GND-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-44" rotation="0" hflip="1" vflip="1" label="GND-10" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="VOLTMETER-7-IN" endpinid="MOTO_ENCO-1-AE" pointList="-460,-156,-476,-156,-476,-108,-460,-108" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="GND-10-GND" endpinid="MOTO_ENCO-1-GND" pointList="-364,-44,-364,-52,-380,-52" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="FUENTE_L-8-OUT" endpinid="MOTO_ENCO-1-M+" pointList="-364,-108,-380,-108" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="LED_FLASH-12-IN" endpinid="MOTO_ENCO-1-DE" pointList="-476,-52,-460,-52" />
+
+</circuit>

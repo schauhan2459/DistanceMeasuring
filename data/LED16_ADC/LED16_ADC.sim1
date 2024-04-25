@@ -1,0 +1,371 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="opAmp" CircId="opAmp-303" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,308" rotation="0" hflip="1" vflip="1" label="opAmp-303" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-188" circPos="-84,308" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,-52" rotation="90" hflip="1" vflip="1" label="Resistor-10" idLabPos="-16,-24" labelrot="0" valLabPos="-13,7" valLabRot="0" boardPos="-8,-548" circPos="-140,-52" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-13" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,44" rotation="90" hflip="1" vflip="1" label="Resistor-13" idLabPos="-16,-24" labelrot="0" valLabPos="-11,8" valLabRot="0" boardPos="-8,-452" circPos="-140,44" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-298" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,396" rotation="90" hflip="1" vflip="1" label="Resistor-298" idLabPos="-16,-24" labelrot="0" valLabPos="-14,9" valLabRot="0" boardPos="-8,-100" circPos="-140,396" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-285" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,244" rotation="0" hflip="1" vflip="1" label="opAmp-285" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-252" circPos="-84,244" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Ground" CircId="Ground-2532" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,436" rotation="0" hflip="1" vflip="1" label="Ground-2532" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-8,-60" circPos="-140,436" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="opAmp" CircId="opAmp-308" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,148" rotation="0" hflip="1" vflip="1" label="opAmp-308" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-348" circPos="-84,148" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-1635" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-236" rotation="0" hflip="1" vflip="1" label="TextComponent-1635" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="156,-776" circPos="-76,-236" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="0 Pixels" Border="1 Pixels" Color="#ffffdc" Opacity="0" Font="ARIAL" Font_Size="12 Pixels" Font_Color="#000080" Fixed_Width="false" Text="16 BIT LED DISPLAY" />
+
+<item itemtype="opAmp" CircId="opAmp-312" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,212" rotation="0" hflip="1" vflip="1" label="opAmp-312" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-284" circPos="-84,212" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-2535" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,-168" rotation="0" hflip="1" vflip="1" label="Tunnel-2535" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-48,-664" circPos="-180,-168" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="IN" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-15" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,108" rotation="90" hflip="1" vflip="1" label="Resistor-15" idLabPos="-16,-24" labelrot="0" valLabPos="-14,7" valLabRot="0" boardPos="-8,-388" circPos="-140,108" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-278" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,300" rotation="90" hflip="1" vflip="1" label="Resistor-278" idLabPos="-16,-24" labelrot="0" valLabPos="-11,8" valLabRot="0" boardPos="-8,-196" circPos="-140,300" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-271" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,276" rotation="0" hflip="1" vflip="1" label="opAmp-271" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-220" circPos="-84,276" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-276" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,172" rotation="90" hflip="1" vflip="1" label="Resistor-276" idLabPos="-16,-24" labelrot="0" valLabPos="-13,7" valLabRot="0" boardPos="-8,-324" circPos="-140,172" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,52" rotation="0" hflip="1" vflip="1" label="opAmp-6" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-444" circPos="-84,52" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-170" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-28,-132" rotation="-90" hflip="1" vflip="1" label="ResistorDip-170" idLabPos="-24,-40" labelrot="0" valLabPos="5,-26" valLabRot="90" boardPos="104,-628" circPos="-28,-132" boardRot="-90" circRot="-90" boardHflip="1" boardVflip="1" Resistance="100 Ω" Size="16 Resist." PullUp="false" PuVolt="5 V" />
+
+<item itemtype="opAmp" CircId="opAmp-301" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,372" rotation="0" hflip="1" vflip="1" label="opAmp-301" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-124" circPos="-84,372" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,-84" rotation="90" hflip="1" vflip="1" label="Resistor-9" idLabPos="-16,-24" labelrot="0" valLabPos="-13,6" valLabRot="0" boardPos="-8,-580" circPos="-140,-84" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,116" rotation="0" hflip="1" vflip="1" label="opAmp-8" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-380" circPos="-84,116" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="opAmp" CircId="opAmp-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,20" rotation="0" hflip="1" vflip="1" label="opAmp-5" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-476" circPos="-84,20" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-284" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,140" rotation="90" hflip="1" vflip="1" label="Resistor-284" idLabPos="-16,-24" labelrot="0" valLabPos="-12,7" valLabRot="0" boardPos="-8,-356" circPos="-140,140" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-280" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,236" rotation="90" hflip="1" vflip="1" label="Resistor-280" idLabPos="-16,-24" labelrot="0" valLabPos="-13,6" valLabRot="0" boardPos="-8,-260" circPos="-140,236" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="LedBar" CircId="LedBar-171" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,-168" rotation="-450" hflip="1" vflip="1" label="LedBar-171" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" boardPos="36,12" circPos="-28,-168" boardRot="-450" circRot="-450" boardHflip="1" boardVflip="1" Color="Yellow" Size="16 Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,84" rotation="0" hflip="1" vflip="1" label="opAmp-7" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-412" circPos="-84,84" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-14" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,76" rotation="90" hflip="1" vflip="1" label="Resistor-14" idLabPos="-16,-24" labelrot="0" valLabPos="-14,6" valLabRot="0" boardPos="-8,-420" circPos="-140,76" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-12" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,12" rotation="90" hflip="1" vflip="1" label="Resistor-12" idLabPos="-16,-24" labelrot="0" valLabPos="-12,6" valLabRot="0" boardPos="-8,-484" circPos="-140,12" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,-76" rotation="0" hflip="1" vflip="1" label="opAmp-2" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-572" circPos="-84,-76" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="opAmp" CircId="opAmp-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,-44" rotation="0" hflip="1" vflip="1" label="opAmp-3" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-540" circPos="-84,-44" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-292" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,268" rotation="90" hflip="1" vflip="1" label="Resistor-292" idLabPos="-16,-24" labelrot="0" valLabPos="-13,8" valLabRot="0" boardPos="-8,-228" circPos="-140,268" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-314" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,332" rotation="90" hflip="1" vflip="1" label="Resistor-314" idLabPos="-16,-24" labelrot="0" valLabPos="-12,7" valLabRot="0" boardPos="-8,-164" circPos="-140,332" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Rail" CircId="Rail-2537" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-140,-148" rotation="90" hflip="1" vflip="1" label="Rail-2537" idLabPos="-5,-10" labelrot="-90" valLabPos="-17.3477,4.60493" valLabRot="-90" boardPos="-8,-644" circPos="-140,-148" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Voltage="5 V" />
+
+<item itemtype="opAmp" CircId="opAmp-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,-108" rotation="0" hflip="1" vflip="1" label="opAmp-1" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-604" circPos="-84,-108" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="opAmp" CircId="opAmp-293" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,180" rotation="0" hflip="1" vflip="1" label="opAmp-293" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-316" circPos="-84,180" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="opAmp" CircId="opAmp-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,-12" rotation="0" hflip="1" vflip="1" label="opAmp-4" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-508" circPos="-84,-12" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-288" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,364" rotation="90" hflip="1" vflip="1" label="Resistor-288" idLabPos="-16,-24" labelrot="0" valLabPos="-13,7" valLabRot="0" boardPos="-8,-132" circPos="-140,364" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Package" CircId="Package-2538" mainComp="false" Show_id="true" Show_Val="false" Pos="-132,460" rotation="0" hflip="1" vflip="1" label="LED16_ADC" idLabPos="62.0509,-23.1985" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="18 _Cells" Height="2 _Cells" Package_File="LED16_ADC.package" Background="color(0,180,50)" Logic_Symbol="false" />
+
+<item itemtype="Resistor" CircId="Resistor-267" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,204" rotation="90" hflip="1" vflip="1" label="Resistor-267" idLabPos="-16,-24" labelrot="0" valLabPos="-15,7" valLabRot="0" boardPos="-8,-292" circPos="-140,204" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-11" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,-20" rotation="90" hflip="1" vflip="1" label="Resistor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-12,6" valLabRot="0" boardPos="-8,-516" circPos="-140,-20" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-53" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-140,-116" rotation="90" hflip="1" vflip="1" label="Resistor-53" idLabPos="-16,-24" labelrot="0" valLabPos="-11,6" valLabRot="0" boardPos="-8,-612" circPos="-140,-116" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Resistance="100 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-296" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,340" rotation="0" hflip="1" vflip="1" label="opAmp-296" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-156" circPos="-84,340" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Node" CircId="Node-317" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,252" />
+
+<item itemtype="Node" CircId="Node-66" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,-52" />
+
+<item itemtype="Node" CircId="Node-36" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,-36" />
+
+<item itemtype="Node" CircId="Node-55" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,-100" />
+
+<item itemtype="Node" CircId="Node-295" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,268" />
+
+<item itemtype="Node" CircId="Node-451" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,108" />
+
+<item itemtype="Node" CircId="Node-281" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,284" />
+
+<item itemtype="Node" CircId="Node-69" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,-84" />
+
+<item itemtype="Node" CircId="Node-39" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,-4" />
+
+<item itemtype="Node" CircId="Node-42" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,28" />
+
+<item itemtype="Node" CircId="Node-81" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,44" />
+
+<item itemtype="Node" CircId="Node-316" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,348" />
+
+<item itemtype="Node" CircId="Node-45" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,60" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,12" />
+
+<item itemtype="Node" CircId="Node-275" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,380" />
+
+<item itemtype="Node" CircId="Node-2536" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,-116" />
+
+<item itemtype="Node" CircId="Node-270" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,236" />
+
+<item itemtype="Node" CircId="Node-289" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,220" />
+
+<item itemtype="Node" CircId="Node-400" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,124" />
+
+<item itemtype="Node" CircId="Node-302" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,172" />
+
+<item itemtype="Node" CircId="Node-448" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,140" />
+
+<item itemtype="Node" CircId="Node-315" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,332" />
+
+<item itemtype="Node" CircId="Node-48" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,92" />
+
+<item itemtype="Node" CircId="Node-63" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,-20" />
+
+<item itemtype="Node" CircId="Node-33" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,-68" />
+
+<item itemtype="Node" CircId="Node-307" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,204" />
+
+<item itemtype="Node" CircId="Node-283" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,316" />
+
+<item itemtype="Node" CircId="Node-279" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,188" />
+
+<item itemtype="Node" CircId="Node-78" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,76" />
+
+<item itemtype="Node" CircId="Node-310" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-116,300" />
+
+<item itemtype="Node" CircId="Node-282" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-140,156" />
+
+<item itemtype="Connector" uid="connector-2357" startpinid="LedBar-171-led3-pinP" endpinid="ResistorDip-170-resistor3-ePin7" pointList="-28,-152,-28,-148" />
+
+<item itemtype="Connector" uid="Connector-2578" startpinid="opAmp-4-output" endpinid="ResistorDip-170-resistor12-ePin24" pointList="-60,-12,44,-12,44,-116" />
+
+<item itemtype="Connector" uid="connector-2318" startpinid="Node-448-1" endpinid="Node-451-1" pointList="-116,140,-116,108" />
+
+<item itemtype="Connector" uid="connector-2364" startpinid="LedBar-171-led10-pinP" endpinid="ResistorDip-170-resistor10-ePin21" pointList="28,-152,28,-148" />
+
+<item itemtype="Connector" uid="Connector-2589" startpinid="opAmp-296-output" endpinid="ResistorDip-170-resistor1-ePin2" pointList="-60,340,-44,340,-44,-116" />
+
+<item itemtype="Connector" uid="connector-2276" startpinid="Resistor-276-rPin" endpinid="Node-279-0" pointList="-140,188,-140,188" />
+
+<item itemtype="Connector" uid="Connector-2547" startpinid="Tunnel-2535-pin" endpinid="Node-2536-1" pointList="-180,-168,-116,-168,-116,-116" />
+
+<item itemtype="Connector" uid="connector-2288" startpinid="Node-302-2" endpinid="Node-307-0" pointList="-116,172,-116,204" />
+
+<item itemtype="Connector" uid="connector-2358" startpinid="LedBar-171-led4-pinP" endpinid="ResistorDip-170-resistor4-ePin9" pointList="-20,-152,-20,-148" />
+
+<item itemtype="Connector" uid="Connector-2585" startpinid="opAmp-312-output" endpinid="ResistorDip-170-resistor5-ePin10" pointList="-60,212,-12,212,-12,-116" />
+
+<item itemtype="Connector" uid="Connector-2582" startpinid="opAmp-8-output" endpinid="ResistorDip-170-resistor8-ePin16" pointList="-60,116,12,116,12,-116" />
+
+<item itemtype="Connector" uid="connector-2307" startpinid="Resistor-15-rPin" endpinid="Node-400-0" pointList="-140,124,-140,124" />
+
+<item itemtype="Connector" uid="connector-2367" startpinid="LedBar-171-led13-pinP" endpinid="ResistorDip-170-resistor13-ePin27" pointList="52,-152,52,-148" />
+
+<item itemtype="Connector" uid="connector-2279" startpinid="Node-281-2" endpinid="Resistor-278-lPin" pointList="-140,284,-140,284" />
+
+<item itemtype="Connector" uid="connector-2238" startpinid="opAmp-4-inputInv" endpinid="Node-39-1" pointList="-108,-4,-140,-4" />
+
+<item itemtype="Connector" uid="connector-2277" startpinid="Node-289-2" endpinid="Resistor-280-lPin" pointList="-140,220,-140,220" />
+
+<item itemtype="Connector" uid="Connector-2586" startpinid="opAmp-285-output" endpinid="ResistorDip-170-resistor4-ePin8" pointList="-60,244,-20,244,-20,-116" />
+
+<item itemtype="Connector" uid="connector-2236" startpinid="opAmp-3-inputInv" endpinid="Node-36-1" pointList="-108,-36,-140,-36" />
+
+<item itemtype="Connector" uid="connector-2271" startpinid="Node-310-2" endpinid="Node-315-0" pointList="-116,300,-116,332" />
+
+<item itemtype="Connector" uid="connector-2270" startpinid="opAmp-303-inputInv" endpinid="Node-283-1" pointList="-108,316,-140,316" />
+
+<item itemtype="Connector" uid="Connector-2575" startpinid="opAmp-1-output" endpinid="ResistorDip-170-resistor15-ePin30" pointList="-60,-108,68,-108,68,-116" />
+
+<item itemtype="Connector" uid="connector-2282" startpinid="Resistor-278-rPin" endpinid="Node-283-0" pointList="-140,316,-140,316" />
+
+<item itemtype="Connector" uid="connector-2253" startpinid="Node-69-2" endpinid="Node-66-0" pointList="-116,-84,-116,-52" />
+
+<item itemtype="Connector" uid="connector-2259" startpinid="Node-81-2" endpinid="Node-78-0" pointList="-116,44,-116,76" />
+
+<item itemtype="Connector" uid="Connector-2588" startpinid="opAmp-303-output" endpinid="ResistorDip-170-resistor2-ePin4" pointList="-60,308,-36,308,-36,-116" />
+
+<item itemtype="Connector" uid="connector-2269" startpinid="Node-315-2" endpinid="opAmp-301-inputNinv" pointList="-116,332,-116,364,-108,364" />
+
+<item itemtype="Connector" uid="connector-2292" startpinid="Node-283-2" endpinid="Resistor-314-lPin" pointList="-140,316,-140,316" />
+
+<item itemtype="Connector" uid="connector-2280" startpinid="opAmp-301-inputInv" endpinid="Node-275-1" pointList="-108,380,-140,380" />
+
+<item itemtype="Connector" uid="connector-2260" startpinid="Node-55-2" endpinid="opAmp-1-inputInv" pointList="-140,-100,-108,-100" />
+
+<item itemtype="Connector" uid="connector-2249" startpinid="Node-63-2" endpinid="Node-74-0" pointList="-116,-20,-116,12" />
+
+<item itemtype="Connector" uid="Connector-2576" startpinid="opAmp-2-output" endpinid="ResistorDip-170-resistor14-ePin28" pointList="-60,-76,60,-76,60,-116" />
+
+<item itemtype="Connector" uid="connector-2305" startpinid="opAmp-271-inputInv" endpinid="Node-281-1" pointList="-108,284,-140,284" />
+
+<item itemtype="Connector" uid="connector-2294" startpinid="opAmp-296-inputNinv" endpinid="Node-315-1" pointList="-108,332,-116,332" />
+
+<item itemtype="Connector" uid="Connector-2581" startpinid="opAmp-7-output" endpinid="ResistorDip-170-resistor9-ePin18" pointList="-60,84,20,84,20,-116" />
+
+<item itemtype="Connector" uid="connector-2289" startpinid="opAmp-312-inputInv" endpinid="Node-289-1" pointList="-108,220,-140,220" />
+
+<item itemtype="Connector" uid="connector-2233" startpinid="Resistor-9-lPin" endpinid="Node-55-0" pointList="-140,-100,-140,-100" />
+
+<item itemtype="Connector" uid="connector-2273" startpinid="Node-316-2" endpinid="Resistor-288-lPin" pointList="-140,348,-140,348" />
+
+<item itemtype="Connector" uid="Connector-2541" startpinid="Ground-2532-Gnd" endpinid="Resistor-298-rPin" pointList="-140,420,-140,412" />
+
+<item itemtype="Connector" uid="Connector-2590" startpinid="opAmp-301-output" endpinid="ResistorDip-170-resistor0-ePin0" pointList="-60,372,-52,372,-52,-116" />
+
+<item itemtype="Connector" uid="connector-2302" startpinid="opAmp-303-inputNinv" endpinid="Node-310-1" pointList="-108,300,-116,300" />
+
+<item itemtype="Connector" uid="connector-2362" startpinid="LedBar-171-led8-pinP" endpinid="ResistorDip-170-resistor8-ePin17" pointList="12,-152,12,-148" />
+
+<item itemtype="Connector" uid="connector-2241" startpinid="Node-42-2" endpinid="Resistor-13-lPin" pointList="-140,28,-140,28" />
+
+<item itemtype="Connector" uid="Connector-2550" startpinid="Rail-2537-outnod" endpinid="Resistor-53-lPin" pointList="-140,-132,-140,-132" />
+
+<item itemtype="Connector" uid="Connector-2587" startpinid="opAmp-271-output" endpinid="ResistorDip-170-resistor3-ePin6" pointList="-60,276,-28,276,-28,-116" />
+
+<item itemtype="Connector" uid="connector-2246" startpinid="Resistor-53-rPin" endpinid="Node-55-1" pointList="-140,-100,-140,-100" />
+
+<item itemtype="Connector" uid="connector-2250" startpinid="opAmp-3-inputNinv" endpinid="Node-66-1" pointList="-108,-52,-116,-52" />
+
+<item itemtype="Connector" uid="connector-2368" startpinid="LedBar-171-led14-pinP" endpinid="ResistorDip-170-resistor14-ePin29" pointList="60,-152,60,-148" />
+
+<item itemtype="Connector" uid="connector-2360" startpinid="LedBar-171-led6-pinP" endpinid="ResistorDip-170-resistor6-ePin13" pointList="-4,-152,-4,-148" />
+
+<item itemtype="Connector" uid="connector-2244" startpinid="opAmp-7-inputInv" endpinid="Node-48-1" pointList="-108,92,-140,92" />
+
+<item itemtype="Connector" uid="connector-2242" startpinid="opAmp-6-inputInv" endpinid="Node-45-1" pointList="-108,60,-140,60" />
+
+<item itemtype="Connector" uid="connector-2254" startpinid="Node-74-2" endpinid="opAmp-5-inputNinv" pointList="-116,12,-108,12" />
+
+<item itemtype="Connector" uid="connector-2286" startpinid="Node-295-1" endpinid="Node-310-0" pointList="-116,268,-116,300" />
+
+<item itemtype="Connector" uid="connector-2283" startpinid="opAmp-293-inputNinv" endpinid="Node-302-1" pointList="-108,172,-116,172" />
+
+<item itemtype="Connector" uid="connector-2355" startpinid="LedBar-171-led1-pinP" endpinid="ResistorDip-170-resistor1-ePin3" pointList="-44,-152,-44,-148" />
+
+<item itemtype="Connector" uid="connector-2228" startpinid="Resistor-13-rPin" endpinid="Node-45-0" pointList="-140,60,-140,60" />
+
+<item itemtype="Connector" uid="connector-2245" startpinid="Node-48-2" endpinid="Resistor-15-lPin" pointList="-140,92,-140,92" />
+
+<item itemtype="Connector" uid="connector-2300" startpinid="opAmp-285-inputInv" endpinid="Node-317-1" pointList="-108,252,-140,252" />
+
+<item itemtype="Connector" uid="connector-2290" startpinid="Node-275-2" endpinid="Resistor-298-lPin" pointList="-140,380,-140,380" />
+
+<item itemtype="Connector" uid="connector-2287" startpinid="Resistor-276-lPin" endpinid="Node-282-0" pointList="-140,156,-140,156" />
+
+<item itemtype="Connector" uid="connector-2255" startpinid="Node-74-1" endpinid="Node-81-0" pointList="-116,12,-116,44" />
+
+<item itemtype="Connector" uid="connector-2237" startpinid="Node-36-2" endpinid="Resistor-11-lPin" pointList="-140,-36,-140,-36" />
+
+<item itemtype="Connector" uid="connector-2274" startpinid="Node-282-2" endpinid="opAmp-308-inputInv" pointList="-140,156,-108,156" />
+
+<item itemtype="Connector" uid="connector-2363" startpinid="LedBar-171-led9-pinP" endpinid="ResistorDip-170-resistor9-ePin19" pointList="20,-152,20,-148" />
+
+<item itemtype="Connector" uid="Connector-2548" startpinid="opAmp-1-inputNinv" endpinid="Node-2536-0" pointList="-108,-116,-116,-116" />
+
+<item itemtype="Connector" uid="connector-2275" startpinid="Node-279-2" endpinid="Resistor-267-lPin" pointList="-140,188,-140,188" />
+
+<item itemtype="Connector" uid="connector-2366" startpinid="LedBar-171-led12-pinP" endpinid="ResistorDip-170-resistor12-ePin25" pointList="44,-152,44,-148" />
+
+<item itemtype="Connector" uid="connector-2284" startpinid="Resistor-314-rPin" endpinid="Node-316-0" pointList="-140,348,-140,348" />
+
+<item itemtype="Connector" uid="connector-2252" startpinid="opAmp-2-inputNinv" endpinid="Node-69-1" pointList="-108,-84,-116,-84" />
+
+<item itemtype="Connector" uid="connector-2231" startpinid="Resistor-10-rPin" endpinid="Node-36-0" pointList="-140,-36,-140,-36" />
+
+<item itemtype="Connector" uid="Connector-2577" startpinid="opAmp-3-output" endpinid="ResistorDip-170-resistor13-ePin26" pointList="-60,-44,52,-44,52,-116" />
+
+<item itemtype="Connector" uid="connector-2272" startpinid="Resistor-284-rPin" endpinid="Node-282-1" pointList="-140,156,-140,156" />
+
+<item itemtype="Connector" uid="Connector-2549" startpinid="Node-2536-2" endpinid="Node-69-0" pointList="-116,-116,-116,-84" />
+
+<item itemtype="Connector" uid="connector-2291" startpinid="Resistor-292-rPin" endpinid="Node-281-0" pointList="-140,284,-140,284" />
+
+<item itemtype="Connector" uid="connector-2243" startpinid="Node-45-2" endpinid="Resistor-14-lPin" pointList="-140,60,-140,60" />
+
+<item itemtype="Connector" uid="connector-2239" startpinid="Node-39-2" endpinid="Resistor-12-lPin" pointList="-140,-4,-140,-4" />
+
+<item itemtype="Connector" uid="connector-2232" startpinid="Resistor-9-rPin" endpinid="Node-33-0" pointList="-140,-68,-140,-68" />
+
+<item itemtype="Connector" uid="connector-2359" startpinid="LedBar-171-led5-pinP" endpinid="ResistorDip-170-resistor5-ePin11" pointList="-12,-152,-12,-148" />
+
+<item itemtype="Connector" uid="connector-2365" startpinid="LedBar-171-led11-pinP" endpinid="ResistorDip-170-resistor11-ePin23" pointList="36,-152,36,-148" />
+
+<item itemtype="Connector" uid="connector-2361" startpinid="LedBar-171-led7-pinP" endpinid="ResistorDip-170-resistor7-ePin15" pointList="4,-152,4,-148" />
+
+<item itemtype="Connector" uid="connector-2356" startpinid="LedBar-171-led2-pinP" endpinid="ResistorDip-170-resistor2-ePin5" pointList="-36,-152,-36,-148" />
+
+<item itemtype="Connector" uid="connector-2301" startpinid="opAmp-312-inputNinv" endpinid="Node-307-1" pointList="-108,204,-116,204" />
+
+<item itemtype="Connector" uid="connector-2234" startpinid="opAmp-2-inputInv" endpinid="Node-33-1" pointList="-108,-68,-140,-68" />
+
+<item itemtype="Connector" uid="Connector-2579" startpinid="opAmp-5-output" endpinid="ResistorDip-170-resistor11-ePin22" pointList="-60,20,36,20,36,-116" />
+
+<item itemtype="Connector" uid="Connector-2580" startpinid="opAmp-6-output" endpinid="ResistorDip-170-resistor10-ePin20" pointList="-60,52,28,52,28,-116" />
+
+<item itemtype="Connector" uid="connector-2235" startpinid="Node-33-2" endpinid="Resistor-10-lPin" pointList="-140,-68,-140,-68" />
+
+<item itemtype="Connector" uid="Connector-2584" startpinid="opAmp-293-output" endpinid="ResistorDip-170-resistor6-ePin12" pointList="-60,180,-4,180,-4,-116" />
+
+<item itemtype="Connector" uid="connector-2257" startpinid="Node-78-2" endpinid="Node-451-0" pointList="-116,76,-116,108" />
+
+<item itemtype="Connector" uid="connector-2296" startpinid="Resistor-288-rPin" endpinid="Node-275-0" pointList="-140,380,-140,380" />
+
+<item itemtype="Connector" uid="connector-2299" startpinid="opAmp-285-inputNinv" endpinid="Node-270-1" pointList="-108,236,-116,236" />
+
+<item itemtype="Connector" uid="connector-2306" startpinid="opAmp-308-inputNinv" endpinid="Node-448-0" pointList="-108,140,-116,140" />
+
+<item itemtype="Connector" uid="connector-2240" startpinid="opAmp-5-inputInv" endpinid="Node-42-1" pointList="-108,28,-140,28" />
+
+<item itemtype="Connector" uid="connector-2297" startpinid="Node-307-2" endpinid="Node-270-0" pointList="-116,204,-116,236" />
+
+<item itemtype="Connector" uid="connector-2317" startpinid="Node-448-2" endpinid="Node-302-0" pointList="-116,140,-116,172" />
+
+<item itemtype="Connector" uid="connector-2230" startpinid="Resistor-11-rPin" endpinid="Node-39-0" pointList="-140,-4,-140,-4" />
+
+<item itemtype="Connector" uid="connector-2304" startpinid="Node-317-2" endpinid="Resistor-292-lPin" pointList="-140,252,-140,252" />
+
+<item itemtype="Connector" uid="connector-2256" startpinid="opAmp-7-inputNinv" endpinid="Node-78-1" pointList="-108,76,-116,76" />
+
+<item itemtype="Connector" uid="connector-2295" startpinid="Node-270-2" endpinid="Node-295-0" pointList="-116,236,-116,268" />
+
+<item itemtype="Connector" uid="connector-2281" startpinid="opAmp-296-inputInv" endpinid="Node-316-1" pointList="-108,348,-140,348" />
+
+<item itemtype="Connector" uid="connector-2303" startpinid="opAmp-293-inputInv" endpinid="Node-279-1" pointList="-108,188,-140,188" />
+
+<item itemtype="Connector" uid="connector-2227" startpinid="Resistor-14-rPin" endpinid="Node-48-0" pointList="-140,92,-140,92" />
+
+<item itemtype="Connector" uid="connector-2369" startpinid="LedBar-171-led15-pinP" endpinid="ResistorDip-170-resistor15-ePin31" pointList="68,-152,68,-148" />
+
+<item itemtype="Connector" uid="connector-2309" startpinid="Node-400-2" endpinid="opAmp-8-inputInv" pointList="-140,124,-108,124" />
+
+<item itemtype="Connector" uid="connector-2248" startpinid="opAmp-4-inputNinv" endpinid="Node-63-1" pointList="-108,-20,-116,-20" />
+
+<item itemtype="Connector" uid="connector-2285" startpinid="Resistor-280-rPin" endpinid="Node-317-0" pointList="-140,252,-140,252" />
+
+<item itemtype="Connector" uid="connector-2251" startpinid="Node-66-2" endpinid="Node-63-0" pointList="-116,-52,-116,-20" />
+
+<item itemtype="Connector" uid="connector-2319" startpinid="Node-451-2" endpinid="opAmp-8-inputNinv" pointList="-116,108,-108,108" />
+
+<item itemtype="Connector" uid="connector-2258" startpinid="opAmp-6-inputNinv" endpinid="Node-81-1" pointList="-108,44,-116,44" />
+
+<item itemtype="Connector" uid="connector-2298" startpinid="Resistor-267-rPin" endpinid="Node-289-0" pointList="-140,220,-140,220" />
+
+<item itemtype="Connector" uid="connector-2308" startpinid="Resistor-284-lPin" endpinid="Node-400-1" pointList="-140,124,-140,124" />
+
+<item itemtype="Connector" uid="connector-2229" startpinid="Resistor-12-rPin" endpinid="Node-42-0" pointList="-140,28,-140,28" />
+
+<item itemtype="Connector" uid="connector-2278" startpinid="Node-295-2" endpinid="opAmp-271-inputNinv" pointList="-116,268,-108,268" />
+
+<item itemtype="Connector" uid="connector-2354" startpinid="LedBar-171-led0-pinP" endpinid="ResistorDip-170-resistor0-ePin1" pointList="-52,-152,-52,-148" />
+
+<item itemtype="Connector" uid="Connector-2583" startpinid="opAmp-308-output" endpinid="ResistorDip-170-resistor7-ePin14" pointList="-60,148,4,148,4,-116" />
+
+</circuit>

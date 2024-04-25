@@ -1,0 +1,17 @@
+<circuit version="" rev="1657" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Line" CircId="Line-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,252" rotation="-90" hflip="1" vflip="1" label="Line-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,12" circPos="-368,252" boardRot="-90" circRot="-90" H_size="8 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="0" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,248" rotation="-90" hflip="1" vflip="1" label="Line-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,8" circPos="-368,248" boardRot="-90" circRot="-90" H_size="8 Pixels" V_size="8 Pixels" Border="4 Pixels" Z_Value="0" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,252" rotation="90" hflip="1" vflip="1" label="Line-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="20,12" circPos="-372,252" boardRot="90" circRot="90" H_size="16 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="0" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-4" mainComp="true" Show_id="false" Show_Val="false" Pos="-380,252" rotation="0" hflip="1" vflip="1" label="Line-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,12" circPos="-380,252" boardRot="0" circRot="0" H_size="16 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,256" rotation="0" hflip="1" vflip="1" label="Line-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,16" circPos="-368,256" boardRot="0" circRot="0" H_size="8 Pixels" V_size="8 Pixels" Border="4 Pixels" Z_Value="0" Color="#ff0000" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-404,196" rotation="0" hflip="1" vflip="1" label="TextComponent-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,-44" circPos="-404,196" boardRot="0" circRot="0" Margin="0 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="6 _Pixels" Fixed_Width="false" Text="FLECHA2" />
+
+<item itemtype="Package" CircId="Package-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-428,240" rotation="0" hflip="1" vflip="1" label="FLECHA2" idLabPos="-2,-17" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="4 _Cells" Height="3 _Cells" Package_File="FLECHA2.package" Background="0_INVIS.png" Logic_Symbol="false" />
+
+</circuit>

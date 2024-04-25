@@ -1,0 +1,15 @@
+<circuit version="" rev="1530" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Tunnel" CircId="Tunnel-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-68" rotation="0" hflip="1" vflip="1" label="Tunnel-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,-72" circPos="-52,-68" boardRot="0" circRot="0" Name="GND" />
+
+<item itemtype="Package" CircId="Package-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,4" rotation="0" hflip="1" vflip="1" idLabPos="-7,-25" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="0 Cells" Height="1 Cells" Package_File="GND_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-44" rotation="0" hflip="1" vflip="1" label="Ground-36" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,-48" circPos="-36,-44" boardRot="0" circRot="0" />
+
+<item itemtype="Line" CircId="Line-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,12" rotation="0" hflip="1" vflip="1" label="Line-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,8" circPos="-28,16" boardRot="0" circRot="0" H_size="12 Pixels" V_size="0 Pixels" Border="4 Pixels" Z_Value="0" Color="#0000c0" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-39" mainComp="false" Show_id="false" Show_Val="false" Pos="12,16" rotation="0" hflip="1" vflip="1" label="Line-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,4" circPos="12,16" boardRot="0" circRot="0" H_size="0 Pixels" V_size="8 Pixels" Border="3 Pixels" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Connector" uid="connector-40" startpinid="Ground-36-Gnd" endpinid="Tunnel-26-pin" pointList="-36,-60,-36,-68,-52,-68" />
+
+</circuit>
